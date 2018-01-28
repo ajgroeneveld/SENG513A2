@@ -5,11 +5,9 @@ body {
 p {
     display: block;
 }
-
 h1 {
     color: #05ADC4;
 }
-
 ul {
     list-style-type: none;
     margin: 0;
@@ -17,11 +15,9 @@ ul {
     overflow: hidden;
     background-color: #05ADC4;
 }
-
 li {
     float: left;
 }
-
 li a {
     display: block;
     color: white;
@@ -30,17 +26,13 @@ li a {
     text-decoration: none;
     font-family: sans-serif;
 }
-
-
 li a:hover {
     background-color: #F8A424 ;
 }
-
 .tableImage {
     width: 100px;
     text-align: center;
 }
-
 table {
     color: #05ADC4;
     border-collapse: collapse;
@@ -54,66 +46,48 @@ th {
     background-color: #05ADC4;
     color: white;
 }
-
 th, td {
     text-align: left;
     padding: 8px;
     border: 2px solid #05ADC4;
-
 }
-
 .tableDataPicture {
     text-align: center;
     width: 110px;
 }
-
 .tableDataTool {
     width: 100px;
     white-space:nowrap;
 }
-
 #nextArrow {
     text-decoration: none;
     padding: 8px 16px;
     position: relative;
-
-
 }
-
 #nextArrow:hover {
     background-color: #F8A424;
 }
-
 #previousArrow {
     text-decoration: none;
     padding: 8px 16px;
-
-
 }
-
 #previousArrow:hover {
     background-color: #F8A424;
 }
-
-
 .previous {
     background-color: #05ADC4;
     color: white;
 }
-
 .next {
     background-color: #05ADC4;
     color: white;
 }
-
 .round {
     border-radius: 50%;
 }
-
 .desc {
     max-width:400px
 }
-
 #iframeDiv {
     text-align: center;
     margin-top: 10px;
@@ -126,12 +100,10 @@ iframe {
     resize: both;
     overflow: auto;
 }
-
 .navPage{
     text-align: center;
     padding: 10px;
 }
-
 #vgPic{
     border: 5px solid #05ADC4;
     max-width: 100%;
@@ -164,4 +136,4 @@ iframe {
     margin-left:5%;
     width: 75%;
 }
-
+ 
