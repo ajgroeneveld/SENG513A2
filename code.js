@@ -1,19 +1,29 @@
 //
-// this is just a stub for a function you need to implement
+// Aaron Groeneveld
+// 10103833
 //
 function getStats(txt) {
 
     var nChars = txt.length;
-    if (nChars===0){
-        var nWords = 0
-        var nLines = 0
+    if (nChars===0) {
+        return {
+            "nChars": 0,
+            "nWords": 0,
+            "nLines": 0,
+            "nonEmptyLines": 0,
+            "maxLineLength": 0,
+            "averageWordLength": 0,
+            "palindromes": [],
+            "longestWords": [],
+            "mostFrequentWords": []
+        };
     }
-    else{
-        var patt = /[^a-zA-Z0-9]+/g;   //Pattern for RegEx is any alphanumeric and apostrophes (for contractions)
-        var wordList = cleanArray(txt.replace(patt," ").toLowerCase().split(" "))
-        var nWords = wordList.length
-        var nLines = txt.split(/\r\n|\r|\n/).length
-    }
+
+    //First 3 Questions
+    var patt = /[^a-zA-Z0-9]+/g;   //Pattern for RegEx is any alphanumeric. Could add apostrophes if we wanted
+    var wordList = cleanArray(txt.replace(patt," ").toLowerCase().split(" ")) //Master List of words that we're counting
+    var nWords = wordList.length
+    var nLines = txt.split(/\r\n|\r|\n/).length //Doesn't have the same problem with blank splits
 
 
 
